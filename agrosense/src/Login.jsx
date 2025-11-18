@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import './Global.css'
 import AgrosenseLogo from './assets/image/agrosense-logo.png'
-import './App.css'
+import './Login.css'
 
 function App() {
   /*const [count, setCount] = useState(0)*/
@@ -15,12 +15,12 @@ function App() {
         </div>
         <div className='button-choice'>
             <button className='button-login'>
-                <b>Agricultor</b>
+                <p>Agricultor</p>
             </button>
 
 
             <button className='button-login'>
-                <b>IPA | Cooperaativa</b>
+                <p>IPA | Cooperaativa</p>
             </button>
         </div>
       </section>
