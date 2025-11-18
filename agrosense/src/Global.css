@@ -1,6 +1,16 @@
+
+
 *{
     margin: 0;
     padding: 0;
+    font-family: var(--MainFont);
+}
+
+@font-face {
+    font-family: 'Altone Trial';
+    src: url(assets/font/altone/Altone\ Trial-Bold.ttf) format('ttf');
+
+
 }
 
 :root{
@@ -9,6 +19,8 @@
     --color02: #270089;
     --color03: #11003D;
     --color04: #A0A1A7;
-    --color05: #D9D9D9
+    --color05: #D9D9D9;
+
+    --MainFont: 'Altone Trial';
 }
 
