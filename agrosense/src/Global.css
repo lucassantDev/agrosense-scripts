@@ -24,3 +24,76 @@
     --MainFont: 'Altone Trial';
 }
 
+.logo-title{
+    /* border: 1px solid red; */
+  width: 80%;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+}
+
+.password-user{
+    width: 500px;
+    height: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.password-user input{
+    padding-block: 15px;
+    padding-inline: 12px;
+    width: 80%;
+    border: 2px solid var(--color03);
+    border-radius: 15px;
+}
+
+.image-logo-small{
+    width: 100px;
+    height: 100px;
+    margin: 0 0 10px 0;
+    background-image: url(../src/assets/image/agrosense-logo.png);
+    background-size: cover;
+}
+
+.title-agrosense-small{
+    font-size: 3rem;
+    width: fit-content  ;
+
+    font-family: var(--MainFont);
+    font-weight: 200;
+
+    background: linear-gradient(90deg, var(--color03), var(--color00));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.button-acess{
+    width: 37%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 10px 0 0 0 ;
+
+    button{
+        width: 45%;
+        font-size: 1.2rem;
+        padding: 10px;
+        cursor: pointer;
+        color: var(--color00);
+        background-color: var(--color03);
+    }
+
+    p{
+        margin: 15px 0 0 0 ;
+    }
+
+    span{
+        font-weight: bold;
+        cursor: pointer;
+    }
+}
