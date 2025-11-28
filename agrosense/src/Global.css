@@ -62,14 +62,12 @@
 
 .title-agrosense-small{
     font-size: 3rem;
-    width: fit-content  ;
+    width: fit-content;
+    cursor: pointer;
 
     font-family: var(--MainFont);
     font-weight: 200;
 
-    background: linear-gradient(90deg, var(--color03), var(--color00));
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
 }
 
 .button-acess{
@@ -96,4 +94,10 @@
         font-weight: bold;
         cursor: pointer;
     }
+}
+
+.gradient-text{
+    background: linear-gradient(90deg, var(--color03), var(--color00));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
