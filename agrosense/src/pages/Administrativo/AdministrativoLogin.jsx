@@ -8,7 +8,7 @@ function AdministrativoLogin(){
                     </div>
                     <h1 className='title-agrosense'>AgroSense</h1>
                 </div>
-                Funcionando
+                Administrativo Funcionando
             </section>
         
         </>
