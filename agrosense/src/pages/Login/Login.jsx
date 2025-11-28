@@ -1,4 +1,5 @@
 import {useNavigate} from 'react-router-dom'
+import AgrosenseLogo from '../../assets/image/agrosense-logo.png'
 import './Login.css'
 
 
@@ -17,12 +18,12 @@ function Login() {
   return (
     <>
       <section className='section-login'>
+
         <div className='logo-title'>
-          <div className='image-logo'>
-            {/* imagem aqui */}
-          </div>
+          <img src={AgrosenseLogo} className='logo-agrosense'/>
           <h1 className='title-agrosense'>AgroSense</h1>
         </div>
+
         <div className='button-choice'>
             <button className='button-login' onClick={PageAgricultor}>
                 <p>Agricultor</p>
@@ -32,6 +33,7 @@ function Login() {
                 <p>IPA | Cooperaativa</p>
             </button>
         </div>
+        
       </section>
     </>
   )

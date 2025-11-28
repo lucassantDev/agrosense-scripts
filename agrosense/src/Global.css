@@ -8,7 +8,7 @@
 
 @font-face {
     font-family: 'Altone Trial';
-    src: url(assets/font/altone/Altone\ Trial-Bold.ttf) format('ttf');
+    src: url(assets/font/altone/Altone/Trial-Bold.ttf) format('ttf');
 
 
 }
@@ -25,13 +25,13 @@
 }
 
 .logo-title{
-    /* border: 1px solid red; */
-  width: 80%;
-  height: 200px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
+    border: 1px solid red;
+    width: 80%;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 
 }
 

@@ -9,16 +9,16 @@
   justify-content: center;
 }
 
-.image-logo{
-  width: 140px;
-  height: 140px;
-  margin: 0 0 10px 0;
-  background-image: url(../src/assets/image/agrosense-logo.png);
-  background-size: cover;
+.logo-agrosense{
+  border: 1px solid red;
+  object-fit: cover;
+  width: 120px;
 }
 
-/* div */
-
+.logo-title{
+  display: flex;
+  align-items: center;
+}
 
 
 .title-agrosense{
