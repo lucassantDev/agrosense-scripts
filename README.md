@@ -24,4 +24,6 @@ O objetivo do sistema é **aproximar Agricultores, o IPA (Instituto de Pesquisa 
 
 ---
 
+O projeto ainda está em fase inicial de desenvolvimento.
+
 
