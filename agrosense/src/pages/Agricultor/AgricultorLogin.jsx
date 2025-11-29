@@ -20,10 +20,8 @@ function AgricultorLogin(){
         }else{
             alert('Não logado!')
         }
-      
-
+    
     }
-
 
     return (
         <>
