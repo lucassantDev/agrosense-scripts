@@ -24,15 +24,6 @@ O objetivo do sistema é **aproximar Agricultores, o IPA (Instituto de Pesquisa 
 
 ---
 
-
-## 👥 Equipe AgroSense
-
-<div align="center">
-  <img src="WhatsApp Image 2025-11-29 at 11.55.04.jpeg" alt="Equipe do projeto AgroSense" width="70%">
-</div>
-
----
-
 ## 🎨 Material UI
 
 Para aprimorar a experiência do usuário e criar componentes modernos e responsivos, utilizamos o **Material UI (MUI)** em nosso projeto.
