@@ -4,7 +4,7 @@ import Login from '../src/pages/Login/Login';
 import Agricultor from '../src/pages/Agricultor/AgricultorLogin';
 import FirstPageAgricultor from '../src/pages/Agricultor/FirstPage/FirstPageAgricultor'
 import Administrativo from '../src/pages/Administrativo/AdministrativoLogin';
-import RequestDone from '../src/pages/Agricultor/FirstPage/RequestDone/RequestDone'
+import RequestDone from './pages/Agricultor/RequestDone/RequestDone'
 import './Global.css'
 
 function App() {
@@ -18,7 +18,7 @@ function App() {
           <Route path='/' element={<Login/>} />
           <Route path='/Agricultor' element={<Agricultor/>} />
           <Route path='/Agricultor/FirstPage/FirstPageAgricultor' element={<FirstPageAgricultor/>} />
-          <Route path='/Agricultor/RequestDone/RequestDone' element={<RequestDone/>}/>
+          <Route path='/Agricultor/RequestDone' element={<RequestDone/>}/>
           <Route path='/Administrativo' element={<Administrativo/>} />
         </Routes>
       </>

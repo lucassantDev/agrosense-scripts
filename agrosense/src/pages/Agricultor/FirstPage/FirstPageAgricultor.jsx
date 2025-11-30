@@ -15,7 +15,7 @@ function FirstPageAgricultor(){
     const navigate = useNavigate()
 
     function PageRequestsDone(){
-        navigate('./RequestDone')
+        navigate('/Agricultor/RequestDone')
     }
     return (
         <>
@@ -32,7 +32,7 @@ function FirstPageAgricultor(){
 
                 <section className='request-historic'>
                     <div className='last-request'>
-                        <div>
+                        <div className='info-request'>
                             <h2>Lote #</h2>
                             <p>Feijão • Vitória</p>
                         </div>
@@ -44,6 +44,7 @@ function FirstPageAgricultor(){
                 </section>
 
                 <section></section>
+                
                 <section className='message-section'>
                     <div className='message'>
                         <p>

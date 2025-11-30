@@ -25,7 +25,6 @@
 }
 
 .logo-title{
-    border: 1px solid red;
     width: 80%;
     height: 200px;
     display: flex;
@@ -94,6 +93,15 @@
         font-weight: bold;
         cursor: pointer;
     }
+}
+
+.button-style{
+    width: 150px;
+    padding: 5px;
+    cursor: pointer;
+
+    background-color: var(--color02);
+    color: #FFFFFF;
 }
 
 .gradient-text{
