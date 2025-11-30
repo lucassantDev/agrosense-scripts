@@ -10,6 +10,7 @@ import { styled } from '@mui/material/styles';
 const steps = [
   { situacao: 'Saiu do centro de distribuição', status: 'feito' },
   { situacao: '...', status: 'pendente' },
+  { situacao: '...', status: 'pendente' },
   { situacao: '...', status: 'pendente' }
 ];
 
