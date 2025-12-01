@@ -10,9 +10,9 @@ O objetivo do sistema é **aproximar Agricultores, o IPA (Instituto de Pesquisa 
 ---
 
 <div align="center">
-  <img src="![WhatsApp Image 2025-11-29 at 11 55 04](https://github.com/user-attachments/assets/eb39e954-4e19-4244-a46d-0dd14c77198a)
-" width="70%" />
+  <img src="https://github.com/lucassantDev/agrosense-scripts/blob/master/WhatsApp%20Image%202025-11-29%20at%2011.55.04.jpeg?raw=true" width="70%" />
 </div>
+
 
 
 ## 🚀 Tecnologias Utilizadas
