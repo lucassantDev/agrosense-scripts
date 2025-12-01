@@ -1,3 +1,9 @@
+<div align="center">
+  <img src="https://github.com/lucassantDev/agrosense-scripts/blob/master/WhatsApp%20Image%202025-11-29%20at%2011.55.04.jpeg?raw=true" width="70%" />
+</div>
+
+---
+
 # AGROSENSE 🌱
 
 **`projeto integrador`**
@@ -8,12 +14,6 @@ O **AgroSense** é uma plataforma web desenvolvida como parte do **Projeto Integ
 O objetivo do sistema é **aproximar Agricultores, o IPA (Instituto de Pesquisa Agronômica) e as Cooperativas**, criando um ambiente simples e intuitivo para comunicação, orientação e suporte técnico.
 
 ---
-
-<div align="center">
-  <img src="https://github.com/lucassantDev/agrosense-scripts/blob/master/WhatsApp%20Image%202025-11-29%20at%2011.55.04.jpeg?raw=true" width="70%" />
-</div>
-
-
 
 ## 🚀 Tecnologias Utilizadas
 
