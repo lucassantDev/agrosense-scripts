@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://github.com/lucassantDev/agrosense-scripts/blob/master/WhatsApp%20Image%202025-11-29%20at%2011.55.04.jpeg?raw=true" width="70%" />
+  <img src="../agrosense/agrosense/src/assets/image/AgroSense-Team.jpeg" width="70%" />
 </div>
 
 ---
