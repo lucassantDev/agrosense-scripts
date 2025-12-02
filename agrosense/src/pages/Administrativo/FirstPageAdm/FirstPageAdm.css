@@ -1,0 +1,140 @@
+.actions{
+    width: 100%;
+    height: 100vh;
+    border: 1px solid red;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.actions-adm{
+    width: 40%;
+    max-width: 500px;
+    height: 450px;
+
+    background-color: var(--color03);
+
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+.button-actions{
+    width: 50%;
+    height: 50px;
+    max-width: 600px;
+
+    cursor: pointer;
+    background-color: var(--color02);
+    border: none;
+
+    font-size: 1.2rem;
+    color: #FFFFFF;
+
+    transition: 0.1s;
+}
+
+.button-actions:hover{
+    margin: -10px 0 0 0;
+    border: 2px solid #FFFFFF;
+    transition: 0.1s;
+}
+
+.name-section{
+    width: 100%;
+    height: 120px;
+    border: 1px solid red;
+
+    display: flex;
+    align-items: center;
+}
+
+.box-section{
+    width: 100%;
+    height: 100vh;
+}
+
+.box{
+    width: 12%;
+    padding: 10px;
+    background-color: var(--color02);
+    text-align: center;
+
+    font-family: var(--Main);
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: #FFFFFF;
+
+    margin-left: 9%;
+    border-radius: 10px;
+
+}
+
+.single-box{
+    width: 100%;
+    height: 50%;
+    border: 1px solid red;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.box-location{
+    width: 20%;
+    height: 65%;
+    border: 2px solid var(--color02);
+    border-radius: 15px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+.box-place{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    /* justify-content: space-evenly; */
+
+    border-radius: 15px 15px 0 0 ;
+
+    font-size: var(--SecondFont);
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.description-box{
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: var(--color02);
+
+    margin: 0 0 10px 0;
+}
+
+.description-box span{
+    color: #000000;
+}
+
+.see-description{
+    width: 150px;
+    padding: 10px;
+    
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+
+    background-color: var(--color02);
+    color: #FFFFFF;
+    font-weight: 500;
+    font-family: var(--SecondFont);
+}
+
+.see-description:hover{
+    box-shadow: 1px 2px 2px var(--color01);
+    transition: 0.2s;
+}
+
