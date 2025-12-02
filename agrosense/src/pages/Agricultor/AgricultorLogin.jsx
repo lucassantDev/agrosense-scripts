@@ -31,7 +31,7 @@ function AgricultorLogin(){
                     <div className='image-logo-small'>
                         {/* imagem aqui */}
                     </div>
-                    <h1 className='title-agrosense-small gradient-text' onClick={FirstPage}>AgroSense</h1>
+                    <h1 className='title-agrosense-small gradient-text secondary-font' onClick={FirstPage}>AgroSense</h1>
                 </div>
                 <div className="password-user">
                     <input type="text" placeholder="CPF" onChange={(e) => setCpf(e.target.value)} />

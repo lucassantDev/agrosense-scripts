@@ -37,7 +37,7 @@ function FirstPageAgricultor(){
                     <img src={Logo} alt="logo AgroSense" style={{
                         width: '30px'
                     }}/>
-                    <h3 className='gradient-text'>
+                    <h3 className='gradient-text secondary-font'>
                         AgroSense
                     </h3>
                 </div>

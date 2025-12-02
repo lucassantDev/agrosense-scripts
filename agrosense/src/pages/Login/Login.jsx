@@ -21,7 +21,7 @@ function Login() {
 
         <div className='logo-title'>
           <img src={AgrosenseLogo} className='logo-agrosense'/>
-          <h1 className='title-agrosense'>AgroSense</h1>
+          <h1 className='title-agrosense gradient-text secondary-font'>AgroSense</h1>
         </div>
 
         <div className='button-choice'>

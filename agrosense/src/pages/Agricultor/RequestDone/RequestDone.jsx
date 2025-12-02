@@ -17,7 +17,7 @@ function RequestDone(){
     }
 
     function InSettings(){
-        navigate()
+        navigate('/Configuracoes/Settings')
     }
 
     return(
@@ -35,7 +35,7 @@ function RequestDone(){
                     </h3>
                 </div>
 
-                <img src={Config} alt="icone de configuração" className='gradient-text' />
+                <img src={Config} alt="icone de configuração" className='gradient-text' onClick={InSettings} />
             </header>
 
             <div style={{

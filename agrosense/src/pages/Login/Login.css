@@ -24,12 +24,7 @@
   width: fit-content  ;
   font-size: 4rem;
 
-  font-family: var(--MainFont);
-  font-weight: 200;
-
-  background: linear-gradient(90deg, var(--color03), var(--color00));
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  font-weight: 500;
 }
 
 
