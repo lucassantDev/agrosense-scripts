@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="../agrosense/agrosense/src/assets/image/AgroSense-Team.jpeg" width="70%" />
+  <img src="AgroSense-Team.jpeg" width="70%" />
 </div>
 
 ---
