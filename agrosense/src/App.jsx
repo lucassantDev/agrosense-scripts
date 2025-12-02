@@ -4,7 +4,8 @@ import Login from '../src/pages/Login/Login';
 import Agricultor from '../src/pages/Agricultor/AgricultorLogin';
 import FirstPageAgricultor from '../src/pages/Agricultor/FirstPage/FirstPageAgricultor'
 import Administrativo from '../src/pages/Administrativo/AdministrativoLogin';
-import RequestDone from './pages/Agricultor/RequestDone/RequestDone'
+import RequestDone from './pages/Agricultor/RequestDone/RequestDone';
+import Settings from './pages/Configuracoes/Settings';
 import './Global.css'
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
       
         <Routes>
           <Route path='/' element={<Login/>} />
+          <Route path='/Configuracoes/Settings' element={<Settings/>}/>
           <Route path='/Agricultor' element={<Agricultor/>} />
           <Route path='/Agricultor/FirstPage/FirstPageAgricultor' element={<FirstPageAgricultor/>} />
           <Route path='/Agricultor/RequestDone' element={<RequestDone/>}/>

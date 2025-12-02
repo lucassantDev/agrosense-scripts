@@ -5,13 +5,19 @@ import Stepper04 from '../../../assets/components/Stepper04'
 import Stepper from '../../../assets/components/Stepper'
 
 import Logo from '../../../assets/image/agrosense-logo.png'
-import Config from '../../../assets/image/settings.svg';
+import Config from '../../../assets/icon/settings.svg';
+
+
 function RequestDone(){
 
     const navigate = useNavigate()
 
     function ReturnPage(){
         navigate(-1)
+    }
+
+    function InSettings(){
+        navigate()
     }
 
     return(

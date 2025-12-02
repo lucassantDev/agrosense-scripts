@@ -1,11 +1,15 @@
 import { Navigate, useNavigate, useNavigation } from 'react-router-dom';
 import './FirstPageAgricultor.css';
-import Agricultor from "../../../assets/image/agricultor.jpg";
+
 
 import Logo from '../../../assets/image/agrosense-logo.png'
 import Config from '../../../assets/icon/settings.svg';
 import Footer from '../../../assets/components/Footer.jsx';
 import Stepper from '../../../assets/components/Stepper'
+
+import JoseSilva from '../../../assets/image/jose-silva.jpg';
+import Agricultor from "../../../assets/image/agricultor.jpg";
+
 
 
 import Step from '@mui/material/Step';
@@ -18,6 +22,10 @@ function FirstPageAgricultor(){
 
     function PageRequestsDone(){
         navigate('/Agricultor/RequestDone')
+    }
+
+    function InSettings(){
+        navigate('/Configuracoes/Settings')
     }
     return (
         <>
@@ -34,13 +42,17 @@ function FirstPageAgricultor(){
                     </h3>
                 </div>
 
-                <img src={Config} alt="icone de configuração" className='gradient-text' />
+                <img src={Config} alt="icone de configuração" className='gradient-text' onClick={InSettings}/>
             </header>
 
             <main>
                 <section className="user-requests">
                     <div className='flex-img-user'>
-                        <img src="" alt="imagem do agricultor" />
+
+                        <div className='img-user'>
+                            {/* imagem de José Silva */}
+                        </div>
+
                         <div className='name-user'>
                             <h2>Olá, José Silva</h2>
                             <p>***.***.*87-00</p>

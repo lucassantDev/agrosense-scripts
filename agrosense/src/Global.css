@@ -8,13 +8,13 @@
 
 @font-face {
     font-family: 'Altone Trial';
-    src: url(assets/font/altone/Altone/Trial-Bold.ttf) format('ttf');
+    src: url(../public/font/altone/Altone\ Trial-Bold.ttf) format('ttf');
 
 }
 
 @font-face {
     font-family: 'Poppins';
-    src: url(assets/font/poppins/Poppins-Regular.ttf) format('ttf');
+    src: url(../public/font/poppins/Poppins-Regular.ttf) format('ttf');
 }
 
 :root{
