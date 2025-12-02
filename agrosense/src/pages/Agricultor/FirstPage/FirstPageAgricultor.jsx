@@ -3,7 +3,7 @@ import './FirstPageAgricultor.css';
 import Agricultor from "../../../assets/image/agricultor.jpg";
 
 import Logo from '../../../assets/image/agrosense-logo.png'
-import Config from '../../../assets/image/settings.svg';
+import Config from '../../../assets/icon/settings.svg';
 import Footer from '../../../assets/components/Footer.jsx';
 import Stepper from '../../../assets/components/Stepper'
 
