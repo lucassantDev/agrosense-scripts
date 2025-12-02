@@ -1,0 +1,37 @@
+.settings-section{
+    height: 100vh;
+    border: 1px solid blue;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.button-settings-style{
+    color: #FFFFFF;
+    background-color: var(--color02);
+
+    width: 40%;
+    padding: 10px;
+    max-width: 550px;
+
+    cursor: pointer;
+    margin: 1% 0 1% 0;
+    font-size: 1.2rem;
+    
+}
+
+.buttons-settings{
+    /* border: 1px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    width: 90%;
+    height: 60%;
+
+}
+
