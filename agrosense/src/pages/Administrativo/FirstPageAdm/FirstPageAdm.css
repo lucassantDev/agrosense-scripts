@@ -1,7 +1,6 @@
 .actions{
     width: 100%;
-    height: 100vh;
-    border: 1px solid red;
+    height: 80vh;
 
     display: flex;
     align-items: center;
@@ -37,7 +36,6 @@
 }
 
 .button-actions:hover{
-    margin: -10px 0 0 0;
     border: 2px solid #FFFFFF;
     transition: 0.1s;
 }
@@ -57,8 +55,9 @@
 }
 
 .box{
-    width: 12%;
-    padding: 10px;
+    width: fit-content;
+    padding-inline: 20px;
+    padding-block: 10px;
     background-color: var(--color02);
     text-align: center;
 
@@ -138,3 +137,32 @@
     transition: 0.2s;
 }
 
+.truck-place{
+    width: 100%;
+    height: 100vh;
+    border: 1px solid red;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.send-truck{
+    width: 35%;
+    height: 205px;
+    border: 3px solid var(--color02);
+    border-radius: 15px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.truck-img{
+    width: 75px;
+    height: 75px;
+
+    background-image: url(../../../assets/image/caminhao-icon.png);
+    background-size: cover;
+}
