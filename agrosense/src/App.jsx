@@ -6,6 +6,8 @@ import FirstPageAgricultor from '../src/pages/Agricultor/FirstPage/FirstPageAgri
 import Administrativo from '../src/pages/Administrativo/AdministrativoLogin';
 import RequestDone from './pages/Agricultor/RequestDone/RequestDone';
 import Settings from './pages/Configuracoes/Settings';
+
+import FirstPageAdm from './pages/Administrativo/FirstPageAdm/FirstPageAdm';
 import './Global.css'
 
 function App() {
@@ -22,6 +24,7 @@ function App() {
           <Route path='/Agricultor/FirstPage/FirstPageAgricultor' element={<FirstPageAgricultor/>} />
           <Route path='/Agricultor/RequestDone' element={<RequestDone/>}/>
           <Route path='/Administrativo' element={<Administrativo/>} />
+          <Route path='/Administrativo/FirstPageAdm' element={<FirstPageAdm/>}/>
         </Routes>
       </>
 
