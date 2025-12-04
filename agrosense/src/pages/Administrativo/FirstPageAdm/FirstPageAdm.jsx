@@ -7,8 +7,11 @@ import './FirstPageAdm.css'
 import RelatorioIcone from '../../../assets/icon/icone-relatorio.svg'
 import SolicitacaoIcone from '../../../assets/icon/icone-solicitacao.svg'
 import BoxImg from '../../../assets/image/box-agrosense.png';
+import { useNavigate } from 'react-router-dom';
 
 function FirstPageAdm(){
+
+    const navigate = useNavigate()
 
     function InSettings(){
         navigate('/Configuracoes/Settings')
@@ -49,13 +52,13 @@ function FirstPageAdm(){
             <section className='actions'>
                 <div className="actions-adm">
                     <img src={SolicitacaoIcone} alt="icone referente solicitações"  style={{
-                        width: '180px'
+                        width: '200px'
                     }}/>
                     <button className='button-actions'>Solicitações</button>
                 </div>
                 <div className="actions-adm">
                     <img src={RelatorioIcone} alt="icone referente a relatório" style={{
-                        width: '160px'
+                        width: '150px'
                     }}/>
                     <button className='button-actions'>Relatório</button>
                 </div>
@@ -124,7 +127,81 @@ function FirstPageAdm(){
                     </div>
                 </div>
             </section>
-            <section></section>
+
+            <section>
+                 <div className='name-section'>
+                    <div className="box">
+                        Acompanhamento
+                    </div>
+                </div>
+
+                <div className='truck-place'>
+
+                    <div className='send-truck'>
+                        <div className='truck-img'>
+                            {/* img aqui */}
+                        </div>
+                        <div>
+                            <h3 className='secondary-font' >#251023 - Lote Vitória</h3>
+                            <p className='secondary-font'>
+                                Saiu do centro de <br /> distribuição
+                            </p>
+                            <p className='secondary-font'>
+                                07:21 AM
+                            </p>
+                        </div>
+                    </div>
+
+                    <div className='send-truck'>
+                        <div className='truck-img'>
+                            {/* img aqui */}
+                        </div>
+                        <div>
+                            <h3 className='secondary-font' >#251023 - Lote Vitória</h3>
+                            <p className='secondary-font'>
+                                Em preparação
+                            </p>
+                            <p className='secondary-font'>
+                                --:--
+                            </p>
+                        </div>
+                    </div>
+
+                    <div className='send-truck'>
+                        <div className='truck-img'>
+                            {/* img aqui */}
+                        </div>
+                        <div>
+                            <h3 className='secondary-font' >#251023 - Lote Vitória</h3>
+                            <p className='secondary-font'>
+                                Em preparação
+                            </p>
+                            <p className='secondary-font'>
+                                --:--
+                            </p>
+                        </div>
+                    </div>
+
+                    <div className='send-truck'>
+                        <div className='truck-img'>
+                            {/* img aqui */}
+                        </div>
+                        <div>
+                            <h3 className='secondary-font' >#251023 - Lote Vitória</h3>
+                            <p className='secondary-font'>
+                                Aguardando confirmação
+                            </p>
+                            <p className='secondary-font'>
+                                --:--
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+
+
+
+            </section>
             <section></section>
             <Footer/>
         </>

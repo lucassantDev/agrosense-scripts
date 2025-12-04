@@ -8,10 +8,12 @@ function Login() {
   const navigate = useNavigate();
 
   function PageAgricultor(){
+    alert('Para acessar a página principal do agricultor, coloque 1440097331 em CPF e 1210 em SENHA')
     navigate('/Agricultor');
   }
 
   function PageAdministrativo(){
+    alert('Para acessar a página principal da parte administrativa, coloque 30023341194 em CPF e 9009 em SENHA')
     navigate('/Administrativo');
   }
 

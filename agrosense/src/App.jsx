@@ -24,7 +24,7 @@ function App() {
           <Route path='/Agricultor/FirstPage/FirstPageAgricultor' element={<FirstPageAgricultor/>} />
           <Route path='/Agricultor/RequestDone' element={<RequestDone/>}/>
           <Route path='/Administrativo' element={<Administrativo/>} />
-          <Route path='/Administrativo/FirstPageAdm' element={<FirstPageAdm/>}/>
+          <Route path='/Administrativo/FirstPageAdm/FirstPageAdm' element={<FirstPageAdm/>}/>
         </Routes>
       </>
 

@@ -4,6 +4,7 @@ import { useState, useRef } from "react";
 
 function AgricultorLogin(){
 
+
     // useState para fazer pequena validação de login do Agricultor
     const [cpf,setCpf] = useState("")
     const [senha, setSenha] = useState("")
@@ -15,8 +16,7 @@ function AgricultorLogin(){
 
     // Função simples para poder validar o login do agricultor
     function ValidationAgricultor(){
-        if(cpf == '1440097331' && senha == 1210){
-            alert(`você digitou ${cpf} e ${senha}`)
+        if(cpf == 1440097331 && senha == 1210){
             navigate('/Agricultor/FirstPage/FirstPageAgricultor')
         }else{
             alert('Não logado!')
@@ -24,8 +24,10 @@ function AgricultorLogin(){
     
     }
 
+
     return (
         <>
+            
             <section className="section-login">
                 <div className='logo-title'>
                     <div className='image-logo-small'>
