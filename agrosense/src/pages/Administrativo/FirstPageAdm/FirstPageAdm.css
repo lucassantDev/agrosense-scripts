@@ -52,6 +52,8 @@
 .box-section{
     width: 100%;
     height: 100vh;
+
+    border: 3px solid green;
 }
 
 .box{
@@ -73,17 +75,19 @@
 
 .single-box{
     width: 100%;
-    height: 50%;
-    border: 1px solid red;
+    height: 70%;
+    border: 2px solid red;
+
 
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+    flex-wrap: wrap;
 }
 
 .box-location{
-    width: 20%;
-    height: 65%;
+    width: 22%;
+    height: 60%;
     border: 2px solid var(--color02);
     border-radius: 15px;
 
@@ -97,7 +101,6 @@
     width: 100%;
     display: flex;
     align-items: center;
-    /* justify-content: space-evenly; */
 
     border-radius: 15px 15px 0 0 ;
 
@@ -139,8 +142,7 @@
 
 .truck-place{
     width: 100%;
-    height: 100vh;
-    border: 1px solid red;
+    height: 80vh;
 
     display: flex;
     align-items: center;
