@@ -10,7 +10,9 @@ import Stepper from '../../../assets/components/Stepper'
 import JoseSilva from '../../../assets/image/jose-silva.jpg';
 import Agricultor from "../../../assets/image/agricultor.jpg";
 
-
+import AlfaceImg from '../../../assets/image/alface-img.jpg';
+import CenouraImg from '../../../assets/image/cenoura-img.jpg';
+import FeijaoImg from '../../../assets/image/feijao-img.jpg';
 
 import Step from '@mui/material/Step';
 import StepLabel from '@mui/material/StepLabel';
@@ -74,7 +76,73 @@ function FirstPageAgricultor(){
                 </section>
 
                 <section className='seed-grain-request'>
-                    
+                    <div className='line-shapes'>
+                        <hr  className='line'/> 
+                        <div className="shapes"></div>
+                        <div className="shapes"></div>
+                        <div className="shapes"></div>
+                        <div className="shapes"></div>
+                    </div>
+                    <div className='div-requests'>
+                        <div className="seed-grain-choice">
+                            
+                            <h3>
+                                Milho
+                            </h3>
+                            <button className='div-requests-button secondary-font'>
+                                Solicitar
+                            </button>
+                        </div>
+
+                        <div className="seed-grain-choice">
+                            <img src={AlfaceImg}  style={{width: '150px', height: '100px', objectFit: 'cover', borderRadius: '25px'}} alt="imagem do alface" />
+                             <h3>
+                                Alface
+                            </h3>
+                            <button className='div-requests-button secondary-font'>
+                                Solicitar
+                            </button>
+                        </div>
+
+                        <div className="seed-grain-choice">
+                            <img src={CenouraImg}  style={{width: '150px', height: '100px', objectFit: 'cover', borderRadius: '25px'}} alt="imagem de cenoura" />
+                             <h3>
+                                Cenoura
+                            </h3>
+                            <button className='div-requests-button secondary-font'>
+                                Solicitar
+                            </button>
+                        </div>
+                        
+                        <div className="seed-grain-choice">
+                            <img src={FeijaoImg}  style={{width: '150px', height: '100px', objectFit: 'cover', borderRadius: '25px'}} alt="imagem de cenoura" />
+                             <h3>
+                                Feijão
+                            </h3>
+                            <button className='div-requests-button secondary-font'>
+                                Solicitar
+                            </button>
+                        </div>
+
+                        <div className="seed-grain-choice">
+                             <h3>
+                                Pimentão Verde
+                            </h3>
+                            <button className='div-requests-button secondary-font'>
+                                Solicitar
+                            </button>
+                        </div>
+
+                        <div className="seed-grain-choice">
+                             <h3>
+                                Tomate
+                            </h3>
+                            <button className='div-requests-button secondary-font'>
+                                Solicitar
+                            </button>
+                        </div>
+                        
+                    </div>
                 </section>
                 
                 <section className='message-section'>
