@@ -13,6 +13,9 @@ import Agricultor from "../../../assets/image/agricultor.jpg";
 import AlfaceImg from '../../../assets/image/alface-img.jpg';
 import CenouraImg from '../../../assets/image/cenoura-img.jpg';
 import FeijaoImg from '../../../assets/image/feijao-img.jpg';
+import MilhoImg from '../../../assets/image/milho.jpg'
+import PimentaoImg from '../../../assets/image/pimentao.jpg'
+import TomateImg from '../../../assets/image/tomate.jpg'
 
 import Step from '@mui/material/Step';
 import StepLabel from '@mui/material/StepLabel';
@@ -83,9 +86,10 @@ function FirstPageAgricultor(){
                         <div className="shapes"></div>
                         <div className="shapes"></div>
                     </div>
+
                     <div className='div-requests'>
                         <div className="seed-grain-choice">
-                            
+                             <img src={MilhoImg}  style={{width: '270px', height: '200px', objectFit: 'cover', borderRadius: '25px'}} alt="imagem do alface" />
                             <h3>
                                 Milho
                             </h3>
@@ -95,7 +99,7 @@ function FirstPageAgricultor(){
                         </div>
 
                         <div className="seed-grain-choice">
-                            <img src={AlfaceImg}  style={{width: '150px', height: '100px', objectFit: 'cover', borderRadius: '25px'}} alt="imagem do alface" />
+                            <img src={AlfaceImg}  style={{width: '270px', height: '200px', objectFit: 'cover', borderRadius: '25px'}} alt="imagem do alface" />
                              <h3>
                                 Alface
                             </h3>
@@ -105,7 +109,7 @@ function FirstPageAgricultor(){
                         </div>
 
                         <div className="seed-grain-choice">
-                            <img src={CenouraImg}  style={{width: '150px', height: '100px', objectFit: 'cover', borderRadius: '25px'}} alt="imagem de cenoura" />
+                            <img src={CenouraImg}  style={{width: '270px', height: '200px', objectFit: 'cover', borderRadius: '25px'}} alt="imagem de cenoura" />
                              <h3>
                                 Cenoura
                             </h3>
@@ -115,7 +119,7 @@ function FirstPageAgricultor(){
                         </div>
                         
                         <div className="seed-grain-choice">
-                            <img src={FeijaoImg}  style={{width: '150px', height: '100px', objectFit: 'cover', borderRadius: '25px'}} alt="imagem de cenoura" />
+                            <img src={FeijaoImg}  style={{width: '270px', height: '200px', objectFit: 'cover', borderRadius: '25px'}} alt="imagem de cenoura" />
                              <h3>
                                 Feijão
                             </h3>
@@ -125,6 +129,7 @@ function FirstPageAgricultor(){
                         </div>
 
                         <div className="seed-grain-choice">
+                            <img src={PimentaoImg}  style={{width: '270px', height: '200px', objectFit: 'cover', borderRadius: '25px'}} alt="imagem de cenoura" />
                              <h3>
                                 Pimentão Verde
                             </h3>
@@ -134,6 +139,7 @@ function FirstPageAgricultor(){
                         </div>
 
                         <div className="seed-grain-choice">
+                            <img src={TomateImg}  style={{width: '270px', height: '200px', objectFit: 'cover', borderRadius: '25px'}} alt="imagem de cenoura" />
                              <h3>
                                 Tomate
                             </h3>
