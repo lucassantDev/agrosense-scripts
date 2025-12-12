@@ -1,0 +1,251 @@
+.user-requests{
+    width: 100%;
+    height: 130px;
+
+    padding-block: 10px;
+
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    
+}
+
+.flex-img-user{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    margin: 0 0 0 12%;
+
+    width: 25%;
+}
+
+.img-user{
+    width: 100px;
+    height: 100px;
+
+    border-radius: 100%;
+
+    background-image: url(../../../assets/image/jose-silva.jpg);
+    background-size: cover;
+    
+}
+
+.name-user p{
+    font-family: var(--SecondFont);
+    color: var(--color04);
+}
+
+.request-historic{
+    width: 100%;
+    height: 390px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.last-request{
+    width: 80%;
+    max-width: 1200px;
+    height: 270px;
+    border: 3px solid var(--color02);
+
+    border-radius: 15px ;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.info-request{
+    margin: -40px 0 20px 0 ;
+    width: 80%;
+}
+
+.info-request h2{
+    font-family: var(--SecondFont);
+    color: var(--color03);
+}
+
+.info-request p{
+    color: var(--color04);
+}
+
+.see-requests{
+    width: 150px;
+    height: 41px;
+    margin: 30px 940px 0 0;
+
+    font: var(--MainFont);
+    background-color: var(--color02);
+    color: #ffffff;
+
+    border: none;
+    cursor: pointer;
+    border-radius: 15px;
+
+    transition: 0.4s;
+}
+
+.see-requests:focus{
+    background-color: var(--color03);
+    transition: 0.4s;
+}
+
+.seed-grain-request{
+    width: 100%;
+    height: 100vh;
+    background-color: var(--color02);
+
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+.line-shapes{
+    width: 100%;
+    height: 100px;
+
+    margin: -20px 0 0 0;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.line{
+    width: 75%;
+    height: 2px;
+    background-color: var(--color00);
+    border: none;
+}
+
+.shapes{
+    width: 50px;
+    height: 50px;
+
+    background-color: var(--color00);
+    margin: 0 0 0 5px;
+
+    border-radius: 100%;
+}
+
+.div-requests{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+    width: 60%;
+    padding: 10px;
+    height: fit-content;
+
+    overflow-x: auto;
+    overflow-y: hidden; 
+    /* scroll-behavior: smooth; */
+}
+
+.div-requests h3{
+    font-size: 2rem;
+}
+
+/* Esconde a barra (opcional) */
+.div-requests::-webkit-scrollbar {
+    height: 10px;
+}
+
+.div-requests::-webkit-scrollbar-thumb {
+    background: #cccccc;
+    border-radius: 1px;
+}
+
+.seed-grain-choice{
+    min-width: 350px;
+    height: 430px;
+
+    border-radius: 25px 25px 0 0;
+    margin: 0 0 0 10px;
+
+    background-color: #ffffff;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+
+}
+
+.div-requests-button{
+    width: 80%;
+    padding: 8px;
+    background-color: var(--color00);
+    color: var(--color02);
+
+    border: none;
+    cursor: pointer;
+
+    font-size: 1.3rem;
+    font-weight: bolder;
+}
+
+.message-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+    width: 100%;
+    height: 120vh;
+}
+
+.message{
+    width: 400px;
+    height: 405px;
+    padding-inline: 25px;
+
+    border-bottom-right-radius: 80px;
+    background-color: var(--color02);
+    color: #ffffff;
+    font-size: 1.4rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    padding-inline: 10px;
+
+}
+
+.message span{
+    font-weight: bold;
+    font-size: 1.3rem;
+    color: var(--color00);
+}
+
+.image-agricultor{
+    height: 700px;
+    margin: 220px 0 0 0;
+    object-fit: cover;
+    z-index: -1;
+}
+
+.logotype{
+    width: 40%;
+    padding-inline: 15px;
+    padding-block: 7px;
+    margin: -10px 0 0 0;
+    border-radius: 15px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    background-color: #ffffff;
+}
+
+.logo-message{
+    height: 40px;
+}
