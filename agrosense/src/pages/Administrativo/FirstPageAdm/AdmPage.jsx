@@ -2,7 +2,7 @@ import Logo from '../../../assets/image/agrosense-logo.png'
 import Config from '../../../assets/icon/settings.svg';
 import Footer from '../../../assets/components/Footer.jsx';
 
-import './FirstPageAdm.css'
+import './AdmPage.css'
 
 import { useNavigate } from 'react-router-dom';
 
