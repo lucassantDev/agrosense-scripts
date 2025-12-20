@@ -17,7 +17,7 @@ function AgricultorLogin(){
     // Função simples para poder validar o login do agricultor
     function ValidationAgricultor(){
         if(cpf == 1440097331 && senha == 1210){
-            navigate('/Agricultor/FirstPage/FirstPageAgricultor')
+            navigate('/Agricultor/FirstPage/UserPage')
         }else{
             alert('Não logado!')
         }
