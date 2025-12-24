@@ -10,7 +10,9 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
 }
+
 
 .div-stepper{
     width: 80%;
@@ -21,9 +23,35 @@
     align-items: center;
     justify-content: center;
 
-    border: 3px solid var(--color03);
+    border: 3px solid var(--color02);
     border-radius: 15px;
 }
+
+.button-requests{
+    width: 100%;
+    height: 75px;
+
+    display: flex;
+    align-items: center;
+}
+
+.button-requests button{
+    width: 200px;
+    height: 45px;
+
+    background-color: var(--color02);
+    color: #ffffff;
+    border: none;
+    border-radius: 15px;
+
+    font-family: var(--SecondFont);
+    font-size: 1.1rem;
+    font-weight: 600;
+
+    margin: 0 0 0 15%;
+    cursor: pointer;
+}
+
 
 .requests-user{
     width: 100%;
@@ -38,18 +66,32 @@
     
     display: flex;
     align-items: center;
+    justify-content: space-evenly;
 }
 
 .message{
-    border: 1px solid red;
-    width: 47%;
+    width: 40%;
+    max-width: 600px;
     padding-inline: 12px;
     height: 350px;
 
-    font-size: 2rem;
-    text-align: left;
+    background-color: var(--color02);
+    color: #ffffff;
+    font-size: 1.7rem;
+    text-align: center;
 
     display: flex;
     align-items: center;
     justify-content: center;
 }
+
+.div-img-agricultor{
+    height: 100%;
+    width: 45%;
+
+    background-image: url(../../../assets/image/agricultor.jpg);
+    background-size: cover;
+}
+
+
+
