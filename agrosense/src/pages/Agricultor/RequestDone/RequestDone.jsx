@@ -7,6 +7,8 @@ import Stepper from '../../../assets/components/Stepper'
 import Logo from '../../../assets/image/agrosense-logo.png'
 import Config from '../../../assets/icon/settings.svg';
 
+import './RequestDone.css'
+
 
 function RequestDone(){
 
@@ -38,14 +40,8 @@ function RequestDone(){
                 <img src={Config} alt="icone de configuração" className='gradient-text' onClick={InSettings} />
             </header>
 
-            <div style={{
-                width: '100%',
-                height: '100px',
-                display: 'flex',
-                alignItems: 'center',
-                justifyContent: 'center'
-            }}>
-                <button className="see-requests" onClick={ReturnPage}>
+            <div className="button-request-done">
+                <button onClick={ReturnPage}>
                     Retornar
                 </button>
             </div>
@@ -59,28 +55,29 @@ function RequestDone(){
                 gap: '20px',
                 flexDirection: 'column'
             }}>
-                <div className="last-request">
+                <div className="div-requests">
                     <div className='info-request'>
                         <h2>LOTE  #251030</h2>
                         <p>Feijão • Vitória</p>
                     </div>
                     <Stepper/>
                 </div>
-                <div className="last-request">
+                <div className="div-requests">
                     <div className='info-request'>
                         <h2>LOTE  #251002</h2>
                         <p>Pimentão • Vitória</p>
                     </div>
                     <Stepper04/>
                 </div>
-                <div className="last-request">
+                <div className="div-requests">
                     <div className='info-request'>
                         <h2>LOTE  #251002</h2>
                         <p>Milho • Vitória</p>
                     </div>
                     <Stepper04/>
                 </div>
-                <div className="last-request">
+
+                <div className="div-requests">
                     <div className='info-request'>
                         <h2>LOTE  #251002</h2>
                         <p>Alface • Vitória</p>
