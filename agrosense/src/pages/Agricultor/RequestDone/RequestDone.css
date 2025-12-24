@@ -1,0 +1,52 @@
+.div-requests{
+    width: 80%;
+    max-width: 950px;
+    height: 225px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+
+    border: 3px solid var(--color02);
+    border-radius: 15px;
+}
+
+.button-request-done{
+    width: 100%;
+
+    margin: 20px 0 0 0 ;
+}
+
+.button-request-done button{
+    width: 200px;
+    height: 45px;
+
+    background-color: var(--color02);
+    color: #ffffff;
+    border: none;
+    border-radius: 15px;
+
+    font-family: var(--SecondFont);
+    font-size: 1.1rem;
+    font-weight: 600;
+
+    margin: 0 0 0 3%;
+    cursor: pointer;
+}
+
+.info-request{
+    width: 100%;
+}
+
+h2{
+    font-family: var(--SecondFont);
+    color: var(--color02);
+    margin: 0 0 5px 20px;
+}
+
+p{
+    font-weight: 300;
+    color: var(--color04);
+    margin: 0 0 0 20px;
+}
