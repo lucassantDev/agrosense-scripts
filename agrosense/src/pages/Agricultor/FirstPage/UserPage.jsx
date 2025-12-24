@@ -4,6 +4,7 @@ import './UserPage.css';
 import Footer from '../../../assets/components/Footer';
 
 
+import Agricultor from '../../../assets/image/agricultor.jpg'
 import Logo from '../../../assets/image/agrosense-logo.png'
 import Config from '../../../assets/icon/settings.svg';
 
@@ -50,11 +51,17 @@ function UserPage(){
                         <h2>Olá, José Silva</h2>
                         <p className='secondary-font'>***.***.**0-50</p>
                     </div>
-                </section>
+                </section> 
+
                 <section className='section-stepper'>
                     <div className='div-stepper'>
                         <Stepper/>
                     </div>
+
+                    <div className='button-requests'>
+                        <button onClick={PageRequestsDone}> Conferir Histórico</button>
+                    </div>
+
                 </section>
 
                 <section className='requests-user'>
@@ -67,7 +74,9 @@ function UserPage(){
                             Conectando produtores, distribuidores e tecnologia para que a jornada da semente seja mais simples, transparente e eficiente. 
                         </p>
                     </div>
-                    <div></div>
+                    <div className='div-img-agricultor'>
+                        
+                    </div>
                 </section>
             </main>
 
