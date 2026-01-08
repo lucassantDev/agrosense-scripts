@@ -3,7 +3,7 @@ import './UserPage.css';
 
 import Footer from '../../../assets/components/Footer';
 
-
+import JoseSilva from '../../../assets/image/jose-silva.jpg'
 import Agricultor from '../../../assets/image/agricultor.jpg'
 import Logo from '../../../assets/image/agrosense-logo.png'
 import Config from '../../../assets/icon/settings.svg';
@@ -46,8 +46,11 @@ function UserPage(){
 
             <main>
                 <section className='name-user'>
-                    <div></div>
-                    <div>
+                    {/* <div className='image-agricultor'>
+                    </div> */}
+
+                    <img src={JoseSilva} alt="" className='image-agricultor' />
+                    <div className='name-agricultor'>
                         <h2>Olá, José Silva</h2>
                         <p className='secondary-font'>***.***.**0-50</p>
                     </div>

@@ -6,7 +6,7 @@ function AgricultorLogin(){
 
 
     // useState para fazer pequena validação de login do Agricultor
-    const [cpf,setCpf] = useState("")
+    const [cpf, setCpf] = useState("")
     const [senha, setSenha] = useState("")
 
     const navigate = useNavigate()
@@ -23,7 +23,6 @@ function AgricultorLogin(){
         }
     
     }
-
 
     return (
         <>
