@@ -9,7 +9,7 @@
 }
 
 .name-agricultor{
-        margin-right: 60%;
+    margin-right: 60%;
 }
 
 .image-agricultor{
@@ -70,12 +70,74 @@
     cursor: pointer;
 }
 
-
 .requests-user{
     width: 100%;
     height: 100vh;
 
     background-color: var(--color03);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.seeds-grains{
+    width: 800px;
+    height: 350px;
+    overflow-x: scroll;
+
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.seeds-grains button{
+    width: 80%;
+    padding-block: 10px;
+
+    font-size: 1.1rem;
+    font-weight: bold;
+    cursor: pointer;
+
+    border: 0;
+    color: var(--color03);
+    background-color: var(--color00);
+}
+
+.image-seed-grain{
+    width: 260px;
+    height: 300px;
+
+    /* flex-shrink para a div não diminuir */
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+
+    background-color: #ffffff;
+    border-radius: 15px 15px 0 0;   
+}
+
+.image-seed-grain img{
+    width: 90%;
+    height: 50%;
+    object-fit: cover;
+
+    margin: 15px 0 0 0;
+}
+
+.requests-user-message{
+    border-top: 3px solid var(--color00);
+    border-bottom: 3px solid var(--color00);
+
+    width: 250px;
+    height: 350px;
+    display: flex;
+    align-items: center;
+}
+
+.requests-user-message h2{
+    color: #ffffff;
 }
 
 .message-page{
