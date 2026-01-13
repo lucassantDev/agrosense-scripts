@@ -41,18 +41,18 @@
   width: 340px;
   padding: 18px;
   background-color: var(--color02);
-  color: var(--color00);
   border: 0;
   transition: 0.2s;
   border-radius: 15px;
   transition: 0.2s;
-
 }
 
 .button-login p{
   font-size: 1.5rem;
   font-weight: bold;
   font-family: var(--MainFont);
+
+  color: #ffffff;
 
 }
 
