@@ -130,9 +130,13 @@ function UserPage(){
                         <p>
                             Conectando produtores, distribuidores e tecnologia para que a jornada da semente seja mais simples, transparente e eficiente. 
                         </p>
+
+                        <div className='agrosense-logo'>
+                            
+                        </div>
                     </div>
                     <div className='div-img-agricultor'>
-                        
+                        {/* imagem do agricultor no css */}
                     </div>
                 </section>
             </main>
