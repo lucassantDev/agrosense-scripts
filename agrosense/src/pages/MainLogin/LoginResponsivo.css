@@ -1,0 +1,18 @@
+@media screen and (min-width: 320px) and (max-width: 620px){
+    .logo-agrosense{
+        width: 50px;
+    }
+
+    .title-agrosense{
+        font-size: 2rem;
+    }
+
+    .button-login{
+        width: 260px;
+    }
+
+    .button-login p{
+        font-size: 1rem;
+    }
+}
+
