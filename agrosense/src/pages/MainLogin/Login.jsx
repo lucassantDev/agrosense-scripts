@@ -1,6 +1,7 @@
 import {useNavigate} from 'react-router-dom'
 import AgrosenseLogo from '../../assets/image/agrosense-logo.png'
 import './Login.css'
+import './LoginResponsivo.css'
 
 
 function Login() {
