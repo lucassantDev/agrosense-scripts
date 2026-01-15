@@ -1,5 +1,6 @@
 import { Navigate, useNavigate } from "react-router-dom";
 import { useState, useRef } from "react";
+import './AgricultorLoginResponsivo.css'
 
 
 function AgricultorLogin(){
