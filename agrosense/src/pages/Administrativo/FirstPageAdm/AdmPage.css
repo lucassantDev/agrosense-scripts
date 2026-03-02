@@ -25,15 +25,42 @@ main{
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+    flex-wrap: wrap;
 }
 
 .auto{
     width: 250px;
     height: 250px;
     border: 3px solid var(--color03);
-
     display: flex;
     align-items: center;
     justify-content: space-evenly;
     flex-direction: column;
+}
+
+.div-ship{
+    width: 35%;
+    height: 20%;
+    border: 3px solid var(--color02);
+    border-radius: 10px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.div-ship p{
+    font-size: 1.5rem;
+}
+
+.number-map{
+    color: var(--color02);
+}
+.message-map{
+    color: var(--color06);
+}
+
+.truck{
+    width: 96px;
+    height: 105px;
 }
